@@ -13,38 +13,32 @@ package chapter_01;
  */
 public final class Exercise_1_03 {
 
-    /**
-     * Default constructor--private to prevent instantiation.
-     */
-    private Exercise_1_03() {
+	/**
+	 * Default constructor--private to prevent instantiation.
+	 */
+	private Exercise_1_03() {
 
-    }
+	}
 
-    /**
-     * Main method.
-     *
-     * @param args
-     *            the command line arguments; unused here
-     */
-    public static void main(String[] args) {
+	/**
+	 * Main method.
+	 *
+	 * @param args the command line arguments; unused here
+	 */
+	public static void main(String[] args) {
 
-        /*
-         * Program Title.
-         */
-        System.out.println("Exercise *1.3: Display a Pattern\n");
+		/*
+		 * Program Title.
+		 */
+		System.out.println("Exercise *1.3: Display a Pattern\n");
 
-        /*
-         * Output "JAVA" pattern to console.
-         */
-        System.out.println("   J    A   V     V   A   ");
-        System.out.println("   J   A A   V   V   A A  ");
-        System.out.println("J  J  AAAAA   V V   AAAAA ");
-        System.out.println(" JJ  A     A   V   A     A");
-
-        /*
-         * Close console output stream.
-         */
-        System.out.close();
-    }
+		/*
+		 * Output "JAVA" pattern to console.
+		 */
+		System.out.println("   J    A   V     V   A   ");
+		System.out.println("   J   A A   V   V   A A  ");
+		System.out.println("J  J  AAAAA   V V   AAAAA ");
+		System.out.println(" JJ  A     A   V   A     A");
+	}
 
 }
