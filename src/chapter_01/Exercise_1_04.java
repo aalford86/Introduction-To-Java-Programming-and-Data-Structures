@@ -47,11 +47,6 @@ public final class Exercise_1_04 {
 		System.out.println(Math.pow(2, 1) + "\t" + Math.pow(2, 2) + "\t" + Math.pow(2, 3));
 		System.out.println(Math.pow(3, 1) + "\t" + Math.pow(3, 2) + "\t" + Math.pow(3, 3));
 		System.out.println(Math.pow(4, 1) + "\t" + Math.pow(4, 2) + "\t" + Math.pow(4, 3));
-
-		/*
-		 * Close console output stream.
-		 */
-		System.out.close();
 	}
 
 }
