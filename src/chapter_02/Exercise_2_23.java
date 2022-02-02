@@ -9,7 +9,7 @@ import java.util.Scanner;
  * to drive, the fuel efficiency of the car in miles per gallon, and the price
  * per gallon then displays the cost of the trip.
  *
- * @Book Introduction to JAVA, 11 Ed. By Daniel Liang
+ * @Book Introduction to JAVA Programming, 11 Ed. By Daniel Liang
  * @Date February 2022
  * @author Alex Alford
  *
