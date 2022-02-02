@@ -12,39 +12,33 @@ package chapter_01;
  */
 public final class Exercise_1_02 {
 
-    /**
-     * Default constructor--private to prevent instantiation.
-     */
-    private Exercise_1_02() {
+	/**
+	 * Default constructor--private to prevent instantiation.
+	 */
+	private Exercise_1_02() {
 
-    }
+	}
 
-    /**
-     * Main method.
-     *
-     * @param args
-     *            the command line arguments; unused here
-     */
-    public static void main(String[] args) {
+	/**
+	 * Main method.
+	 *
+	 * @param args the command line arguments; unused here
+	 */
+	public static void main(String[] args) {
 
-        /*
-         * Program Title.
-         */
-        System.out.println("Exercise 1.2: Display Five Messages\n");
+		/*
+		 * Program Title.
+		 */
+		System.out.println("Exercise 1.2: Display Five Messages\n");
 
-        /*
-         * Output message to console five times.
-         */
-        System.out.println("Welcome to Java");
-        System.out.println("Welcome to Java");
-        System.out.println("Welcome to Java");
-        System.out.println("Welcome to Java");
-        System.out.println("Welcome to Java");
-
-        /*
-         * Close output stream.
-         */
-        System.out.close();
-    }
+		/*
+		 * Output message to console five times.
+		 */
+		System.out.println("Welcome to Java");
+		System.out.println("Welcome to Java");
+		System.out.println("Welcome to Java");
+		System.out.println("Welcome to Java");
+		System.out.println("Welcome to Java");
+	}
 
 }
