@@ -1,4 +1,4 @@
-<h1 align = "center">Introduction To Java Programming and Data Structures<h1/>
+#<h1 align = "center">Introduction To Java Programming and Data Structures<h1/>
  
  <img align = "center" src="C:\Users\Alex\OneDrive\CSCC\Books\Introduction to JAVA, 11 ed. Daniel Liang\Introduction To Java.jpg" alt="Introduction to JAVA - Book Cover">
  
@@ -7,7 +7,7 @@
  <br/>Eleventh Edition
  <br/>Y. Daniel Liang
 <p/>
-# 
+ 
  
 
  
