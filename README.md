@@ -1,9 +1,9 @@
 <h1 center = "center">Introduction To Java Programming and Data Structures<h1/>
  
-<p center = "center">
-<br/>Comprehensive Version
-<br/>Eleventh Edition
-<br/>Y. Daniel Liang
+<p>
+ <br/>Comprehensive Version
+ <br/>Eleventh Edition
+ <br/>Y. Daniel Liang
 <p/>
  
  <hr/>
