@@ -1,7 +1,5 @@
 package chapter_03;
 
-import java.util.Scanner;
-
 /**
  * Exercise 3.16
  *
@@ -35,11 +33,6 @@ public final class Exercise_3_16 {
 		System.out.println("Exercise 3.16 - Random Point");
 
 		/*
-		 * Open input stream.
-		 */
-		Scanner consoleInput = new Scanner(System.in);
-
-		/*
 		 * Declare the constants for the maximum and minimum values that the x and y
 		 * coordinates can be.
 		 */
@@ -64,11 +57,6 @@ public final class Exercise_3_16 {
 		System.out.println("");
 		System.out.println("The random x coordinate: " + xCoordinate);
 		System.out.println("The random y coordinate: " + yCoordinate);
-
-		/*
-		 * Close input stream.
-		 */
-		consoleInput.close();
 	}
 
 }
