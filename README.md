@@ -38,6 +38,6 @@ https://shields.io/
 
 <h2>License & Copyright</h2>
 
-<a href = "(https://github.com/aalford86)">@aalford86</a>
+<a href = "https://github.com/aalford86">@aalford86</a>
 
 Licensed under the <a href = "https://github.com/aalford86/Introduction_To_Java_Programming_and_Data_Structures/blob/main/LICENSE">MIT License</a>
