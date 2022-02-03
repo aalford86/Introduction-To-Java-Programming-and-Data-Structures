@@ -49,12 +49,12 @@ public final class Exercise_3_16 {
 		final double Y_COORD_MIN = -100.0;
 
 		/*
-		 * Generate a random x coordinate with in a set range of possible coordinates.
+		 * Generate a random x coordinate within a set range of possible coordinates.
 		 */
 		double xCoordinate = Math.random() * ((X_COORD_MAX - X_COORD_MIN) + 1) + X_COORD_MIN;
 
 		/*
-		 * Generate a random y coordinate with in a set range of possible coordinates.
+		 * Generate a random y coordinate within a set range of possible coordinates.
 		 */
 		double yCoordinate = Math.random() * ((Y_COORD_MAX - Y_COORD_MIN) + 1) + Y_COORD_MIN;
 
