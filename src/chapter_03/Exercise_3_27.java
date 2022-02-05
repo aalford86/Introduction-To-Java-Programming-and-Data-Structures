@@ -41,6 +41,7 @@ public class Exercise_3_27 {
 		 * Program Title.
 		 */
 		System.out.println("Exercise **3.27 - Geometry: Points In Triangle?");
+		System.out.println("");
 
 		/*
 		 * Open input stream.
