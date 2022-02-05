@@ -80,12 +80,12 @@ public final class Exercise_2_08 {
 		/*
 		 * Obtain the current hour.
 		 */
-		long currentHour = totalHours % 24;
+		long currentHour = (totalHours + hourOffset) % 24;
 
 		/*
 		 * Display results
 		 */
-		System.out.println("Current time is " + (currentHour + hourOffset) + ":" + currentMinute + ":" + currentSecond);
+		System.out.println("Current time is " + (currentHour) + ":" + currentMinute + ":" + currentSecond);
 
 		/*
 		 * Close input stream.
