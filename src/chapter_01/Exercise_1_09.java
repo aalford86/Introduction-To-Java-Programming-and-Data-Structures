@@ -3,7 +3,7 @@ package chapter_01;
 /**
  * Exercise 1.9
  *
- * (Area and perimeter of a rectangle) Write a program that displays the area
+ * (Area And Perimeter Of A Rectangle) Write a program that displays the area
  * and perimeter of a rectangle with a width of 4.5 and a height of 7.9 using
  * the following formula:
  *
@@ -18,33 +18,29 @@ package chapter_01;
  * @author Alex Alford
  *
  */
-public final class Exercise_1_09 {
-
-	/**
-	 * Default constructor--private to prevent instantiation.
-	 */
-	private Exercise_1_09() {
-
-	}
+public class Exercise_1_09 {
 
 	/**
 	 * Main method.
 	 *
-	 * @param args the command line arguments; unused here
+	 * @param args the command line arguments
 	 */
 	public static void main(String[] args) {
 
 		/*
 		 * Program Title.
 		 */
-		System.out.println("Exercise 1.9: Area and Perimeter of a Rectangle\n");
+		System.out.println("Exercise 1.9 - Area And Perimeter Of A Rectangle");
+		System.out.println("");
 
 		/*
-		 * Output message to console.
+		 * Display result to console.
 		 */
 		System.out.println("Width: 4.5 \nHeight: 7.9");
-		System.out.println("Perimeter = " + (2 * 4.5 + 2 * 7.9));
-		System.out.println("Area = " + (4.5 * 7.9));
+		System.out.print("Perimeter = ");
+		System.out.println(2 * 4.5 + 2 * 7.9);
+		System.out.print("Area = ");
+		System.out.println(4.5 * 7.9);
 	}
 
 }
