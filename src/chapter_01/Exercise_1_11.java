@@ -7,9 +7,11 @@ package chapter_01;
  * the following assumptions:
  *
  * <pre>
- * One birth every 7 seconds
- * One death every 13 seconds
- * One new immigrant every 45 seconds
+ *
+ * - One birth every 7 seconds
+ * - One death every 13 seconds
+ * - One new immigrant every 45 seconds
+ *
  * </pre>
  *
  * Write a program to display the population for each of the next five years.
@@ -25,41 +27,46 @@ package chapter_01;
  * @author Alex Alford
  *
  */
-public final class Exercise_1_11 {
-
-	/**
-	 * Default constructor--private to prevent instantiation.
-	 */
-	private Exercise_1_11() {
-
-	}
+public class Exercise_1_11 {
 
 	/**
 	 * Main method.
 	 *
-	 * @param args the command line arguments; unused here
+	 * @param args the command line arguments
 	 */
 	public static void main(String[] args) {
 
 		/*
 		 * Program Title.
 		 */
-		System.out.println("Exercise *1.11: Population Projection\n");
+		System.out.println("Exercise *1.11 - Population Projection");
+		System.out.println("");
 
 		/*
-		 * Output message to console.
+		 * Display result to console.
 		 */
-		System.out.println("Initial Population: 312,032,486\n");
-		System.out.println("Year 1: " + (312_032_486
-				+ 1 * ((60 * 60 * 24 * 365 / 7) - (60 * 60 * 24 * 365 / 13) + (60 * 60 * 24 * 365 / 45))));
-		System.out.println("Year 2: " + (312_032_486
-				+ 2 * ((60 * 60 * 24 * 365 / 7) - (60 * 60 * 24 * 365 / 13) + (60 * 60 * 24 * 365 / 45))));
-		System.out.println("Year 3: " + (312_032_486
-				+ 3 * ((60 * 60 * 24 * 365 / 7) - (60 * 60 * 24 * 365 / 13) + (60 * 60 * 24 * 365 / 45))));
-		System.out.println("Year 4: " + (312_032_486
-				+ 4 * ((60 * 60 * 24 * 365 / 7) - (60 * 60 * 24 * 365 / 13) + (60 * 60 * 24 * 365 / 45))));
-		System.out.println("Year 5: " + (312_032_486
-				+ 5 * ((60 * 60 * 24 * 365 / 7) - (60 * 60 * 24 * 365 / 13) + (60 * 60 * 24 * 365 / 45))));
+		System.out.println("Initial Population: 312,032,486");
+		System.out.println("");
+
+		System.out.print("Year 1: ");
+		System.out.println(
+				(312_032_486 + 1 * ((60 * 60 * 24 * 365 / 7) - (60 * 60 * 24 * 365 / 13) + (60 * 60 * 24 * 365 / 45))));
+
+		System.out.print("Year 2: ");
+		System.out.println(
+				(312_032_486 + 2 * ((60 * 60 * 24 * 365 / 7) - (60 * 60 * 24 * 365 / 13) + (60 * 60 * 24 * 365 / 45))));
+
+		System.out.print("Year 3: ");
+		System.out.println(
+				(312_032_486 + 3 * ((60 * 60 * 24 * 365 / 7) - (60 * 60 * 24 * 365 / 13) + (60 * 60 * 24 * 365 / 45))));
+
+		System.out.print("Year 4: ");
+		System.out.println(
+				(312_032_486 + 4 * ((60 * 60 * 24 * 365 / 7) - (60 * 60 * 24 * 365 / 13) + (60 * 60 * 24 * 365 / 45))));
+
+		System.out.print("Year 5: ");
+		System.out.println(
+				(312_032_486 + 5 * ((60 * 60 * 24 * 365 / 7) - (60 * 60 * 24 * 365 / 13) + (60 * 60 * 24 * 365 / 45))));
 	}
 
 }
