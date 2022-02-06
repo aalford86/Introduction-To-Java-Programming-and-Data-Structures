@@ -12,31 +12,26 @@ package chapter_01;
  * @author Alex Alford
  *
  */
-public final class Exercise_1_10 {
-
-	/**
-	 * Default constructor--private to prevent instantiation.
-	 */
-	private Exercise_1_10() {
-
-	}
+public class Exercise_1_10 {
 
 	/**
 	 * Main method.
 	 *
-	 * @param args the command line arguments; unused here
+	 * @param args the command line arguments
 	 */
 	public static void main(String[] args) {
 
 		/*
 		 * Program Title.
 		 */
-		System.out.println("Exercise 1.10: Average Speed In Miles\n");
+		System.out.println("Exercise 1.10 - Average Speed In Miles");
+		System.out.println("");
 
 		/*
-		 * Output message to console.
+		 * Display result to console.
 		 */
-		System.out.println("MPH: " + ((14 / 1.6) / ((45 * 60) + 30)) * (60 * 60));
+		System.out.print("MPH: ");
+		System.out.println(((14 / 1.6) / ((45 * 60) + 30)) * (60 * 60));
 	}
 
 }
