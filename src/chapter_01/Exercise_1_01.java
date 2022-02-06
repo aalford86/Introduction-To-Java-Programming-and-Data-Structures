@@ -11,7 +11,7 @@ package chapter_01;
  * @author Alex Alford
  *
  */
-public final class Exercise_1_01 {
+public class Exercise_1_01 {
 
 	/**
 	 * Main method.
