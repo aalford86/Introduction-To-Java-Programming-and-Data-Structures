@@ -14,12 +14,6 @@ package chapter_01;
 public final class Exercise_1_01 {
 
 	/**
-	 * Private constructor so this utility class cannot be instantiated.
-	 */
-	private Exercise_1_01() {
-	}
-
-	/**
 	 * Main method.
 	 *
 	 * @param args the command line arguments
@@ -29,12 +23,13 @@ public final class Exercise_1_01 {
 		/*
 		 * Program Title.
 		 */
-		System.out.println("Exercise 1.1: Display Three Messages");
+		System.out.println("Exercise 1.1 - Display Three Messages");
+		System.out.println("");
 
 		/*
 		 * Print three messages to console.
 		 */
-		System.out.println("\nWelcome to Java");
+		System.out.println("Welcome to Java");
 		System.out.println("Welcome to Computer Science");
 		System.out.println("Programming is fun");
 	}
