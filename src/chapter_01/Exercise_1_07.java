@@ -34,29 +34,23 @@ package chapter_01;
  * @author Alex Alford
  *
  */
-public final class Exercise_1_07 {
-
-	/**
-	 * Default constructor--private to prevent instantiation.
-	 */
-	private Exercise_1_07() {
-
-	}
+public class Exercise_1_07 {
 
 	/**
 	 * Main method.
 	 *
-	 * @param args the command line arguments; unused here
+	 * @param args the command line arguments
 	 */
 	public static void main(String[] args) {
 
 		/*
 		 * Program Title.
 		 */
-		System.out.println("Exercise 1.7: Approximate Pi\n");
+		System.out.println("Exercise 1.7 - Approximate Pi");
+		System.out.println("");
 
 		/*
-		 * Output message to console.
+		 * Display result to console.
 		 */
 		System.out.println("                1     1     1     1      1");
 		System.out.println("pi = 4 x ( 1 - ___ + ___ - ___ + ___ - ____  )");
@@ -64,7 +58,8 @@ public final class Exercise_1_07 {
 		System.out.print("pi = ");
 		System.out.println(4 * (1.0 - (1.0 / 3) + (1.0 / 5) - (1.0 / 7) + (1.0 / 9) - (1.0 / 11)));
 
-		System.out.println("\n");
+		System.out.println("");
+		System.out.println("");
 
 		System.out.println("                1     1     1     1      1       1");
 		System.out.println("pi = 4 x ( 1 - ___ + ___ - ___ + ___ - ____  + ____)");
