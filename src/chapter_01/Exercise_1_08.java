@@ -3,7 +3,7 @@ package chapter_01;
 /**
  * Exercise 1.8
  *
- * (Area and perimeter of a circle) Write a program that displays the area and
+ * (Area And Perimeter Of A Circle) Write a program that displays the area and
  * perimeter of a circle that has a radius of 5.5 using the following formulas:
  *
  * <pre>
@@ -18,14 +18,7 @@ package chapter_01;
  * @author Alex Alford
  *
  */
-public final class Exercise_1_08 {
-
-	/**
-	 * Default constructor--private to prevent instantiation.
-	 */
-	private Exercise_1_08() {
-
-	}
+public class Exercise_1_08 {
 
 	/**
 	 * Main method.
@@ -37,14 +30,19 @@ public final class Exercise_1_08 {
 		/*
 		 * Program Title.
 		 */
-		System.out.println("Exercise 1.8: Area and Perimeter of a Circle\n");
+		System.out.println("Exercise 1.8 - Area And Perimeter Of A Circle");
+		System.out.println("");
 
 		/*
-		 * Output message to console.
+		 * Display result to console.
 		 */
 		System.out.println("Radius = 5.5");
-		System.out.println("Perimeter = " + (2 * 5.5 * Math.PI));
-		System.out.println("Area = " + (5.5 * 5.5 * Math.PI));
+
+		System.out.print("Perimeter = ");
+		System.out.println(2 * 5.5 * 3.14);
+
+		System.out.print("Area = ");
+		System.out.println(5.5 * 5.5 * 3.14);
 	}
 
 }
