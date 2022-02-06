@@ -11,14 +11,7 @@ package chapter_01;
  * @author Alex Alford
  *
  */
-public final class Exercise_1_06 {
-
-	/**
-	 * Default constructor--private to prevent instantiation.
-	 */
-	private Exercise_1_06() {
-
-	}
+public class Exercise_1_06 {
 
 	/**
 	 * Main method.
@@ -30,7 +23,8 @@ public final class Exercise_1_06 {
 		/*
 		 * Program Title.
 		 */
-		System.out.println("Exercise 1.6: Summation Of A Series\n");
+		System.out.println("Exercise 1.6 - Summation Of A Series");
+		System.out.println("");
 
 		/*
 		 * Output message to console.
