@@ -77,9 +77,16 @@ public class Exercise_3_34 {
 		double pointPosition = (x1 - x0) * (y2 - y0) - (x2 - x0) * (y1 - y0);
 
 		/*
+		 * Boundaries of the line segment. Limits the line from infinity to infinity
+		 * down to the initial point to the end point to create a line segment with in
+		 * the range and domain.
+		 */
+		boolean boundary = ((x2 > x1) && (x2 < x0) || (x2 > x0) && (x2 < x1));
+
+		/*
 		 * Display result to console.
 		 */
-		if (pointPosition == 0 && ((x2 > x1) && (x2 < x0) || (x2 > x0) && (x2 < x1))) {
+		if (pointPosition == 0 && boundary) {
 			position = "on";
 		}
 
