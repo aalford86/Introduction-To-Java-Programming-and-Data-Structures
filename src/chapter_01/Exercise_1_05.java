@@ -22,13 +22,6 @@ package chapter_01;
 public final class Exercise_1_05 {
 
 	/**
-	 * Default constructor--private to prevent instantiation.
-	 */
-	private Exercise_1_05() {
-
-	}
-
-	/**
 	 * Main method.
 	 *
 	 * @param args the command line arguments; unused here
@@ -38,14 +31,16 @@ public final class Exercise_1_05 {
 		/*
 		 * Program Title.
 		 */
-		System.out.println("Exercise 1.5: Compute Expressions\n");
+		System.out.println("Exercise 1.5 - Compute Expressions");
+		System.out.println("");
 
 		/*
-		 * Output message to console.
+		 * Display result to console.
 		 */
 		System.out.println("9.5 x 4.5 - 2.5 x 3");
-		System.out.println("------------------- = " + ((9.5 * 4.5 - 2.5 * 3) / (45.5 - 3.5)));
-		System.out.println("   45.5 - 3.5");
+		System.out.print("------------------- = ");
+		System.out.println((9.5 * 4.5 - 2.5 * 3) / (45.5 - 3.5));
+		System.out.println("    45.5 - 3.5");
 	}
 
 }
