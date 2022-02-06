@@ -13,23 +13,17 @@ package chapter_01;
 public final class Exercise_1_02 {
 
 	/**
-	 * Default constructor--private to prevent instantiation.
-	 */
-	private Exercise_1_02() {
-
-	}
-
-	/**
 	 * Main method.
 	 *
-	 * @param args the command line arguments; unused here
+	 * @param args the command line arguments
 	 */
 	public static void main(String[] args) {
 
 		/*
 		 * Program Title.
 		 */
-		System.out.println("Exercise 1.2: Display Five Messages\n");
+		System.out.println("Exercise 1.2 - Display Five Messages");
+		System.out.println("");
 
 		/*
 		 * Output message to console five times.
