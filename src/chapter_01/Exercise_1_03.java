@@ -3,7 +3,7 @@ package chapter_01;
 /**
  * Exercise *1.3
  *
- * (Display a pattern) Write a program that displays the following pattern:
+ * (Display A Pattern) Write a program that displays the following pattern:
  * "JAVA".
  *
  * @Book Introduction to JAVA Programming, 11 Ed. By Daniel Liang
@@ -14,26 +14,20 @@ package chapter_01;
 public final class Exercise_1_03 {
 
 	/**
-	 * Default constructor--private to prevent instantiation.
-	 */
-	private Exercise_1_03() {
-
-	}
-
-	/**
 	 * Main method.
 	 *
-	 * @param args the command line arguments; unused here
+	 * @param args the command line arguments
 	 */
 	public static void main(String[] args) {
 
 		/*
 		 * Program Title.
 		 */
-		System.out.println("Exercise *1.3: Display a Pattern\n");
+		System.out.println("Exercise *1.3 - Display A Pattern");
+		System.out.println("");
 
 		/*
-		 * Output "JAVA" pattern to console.
+		 * Display result to console.
 		 */
 		System.out.println("   J    A   V     V   A   ");
 		System.out.println("   J   A A   V   V   A A  ");
