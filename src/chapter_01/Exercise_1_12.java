@@ -12,32 +12,27 @@ package chapter_01;
  * @author Alex Alford
  *
  */
-public final class Exercise_1_12 {
-
-	/**
-	 * Default constructor--private to prevent instantiation.
-	 */
-	private Exercise_1_12() {
-
-	}
+public class Exercise_1_12 {
 
 	/**
 	 * Main method.
 	 *
-	 * @param args the command line arguments; unused here
+	 * @param args the command line arguments
 	 */
 	public static void main(String[] args) {
 
 		/*
 		 * Program Title.
 		 */
-		System.out.println("Exercise 1.12: Average Speed In Kilometers\n");
+		System.out.println("Exercise 1.12 - Average Speed In Kilometers");
+		System.out.println("");
 
 		/*
-		 * Output message to console.
+		 * Display result to console.
 		 */
-		System.out.println("24 miles in 1 hour, 40 minutes, and 35 seconds will be "
-				+ ((24 * 1.6) / (100 * 60 + 45)) * 60 * 60 + " kilometers per hour.");
+		System.out.print("24 miles in 1 hour, 40 minutes, and 35 seconds will be ");
+		System.out.print(((24 * 1.6) / (100 * 60 + 45)) * 60 * 60); // Average speed in kilometers.
+		System.out.println(" kilometers per hour.");
 	}
 
 }
