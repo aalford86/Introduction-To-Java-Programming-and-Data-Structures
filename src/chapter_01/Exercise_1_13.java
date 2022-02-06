@@ -33,32 +33,29 @@ package chapter_01;
  * @author Alex Alford
  *
  */
-public final class Exercise_1_13 {
-
-	/**
-	 * Default constructor--private to prevent instantiation.
-	 */
-	private Exercise_1_13() {
-
-	}
+public class Exercise_1_13 {
 
 	/**
 	 * Main method.
 	 *
-	 * @param args the command line arguments; unused here
+	 * @param args the command line arguments
 	 */
 	public static void main(String[] args) {
 
 		/*
 		 * Program Title.
 		 */
-		System.out.println("Exercise *1.13: Algebra Solve 2x2 Linear Equations\n");
+		System.out.println("Exercise *1.13 - Algebra: Solve 2x2 Linear Equations");
+		System.out.println("");
 
 		/*
-		 * Output message to console.
+		 * Display result to console.
 		 */
-		System.out.println("x = " + ((44.5 * 0.55 - 50.2 * 5.9) / (3.4 * 0.55 - 50.2 * 2.1)));
-		System.out.println("y = " + ((3.4 * 5.9 - 44.5 * 2.1) / (3.4 * 0.55 - 50.2 * 2.1)));
+		System.out.print("x = ");
+		System.out.println(((44.5 * 0.55 - 50.2 * 5.9) / (3.4 * 0.55 - 50.2 * 2.1)));
+
+		System.out.print("y = ");
+		System.out.println(((3.4 * 5.9 - 44.5 * 2.1) / (3.4 * 0.55 - 50.2 * 2.1)));
 	}
 
 }
