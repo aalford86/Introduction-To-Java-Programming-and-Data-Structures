@@ -20,7 +20,7 @@ https://shields.io/
 <br/>
 
 <div align = "center">
-    <a href = "https://www.pearson.com/us/higher-education/program/Liang-Introduction-to-Java-Programming-and-Data-Structures-Comprehensive-Version-Plus-My-Lab-Programming-with-Pearson-e-Text-Access-Card-Package-11th-Edition/PGM2297842.html"><img src="https://img.shields.io/badge/Completion-Chapter%203-blue" alt="Completion Badge"></a>
+    <a href = "https://www.pearson.com/us/higher-education/program/Liang-Introduction-to-Java-Programming-and-Data-Structures-Comprehensive-Version-Plus-My-Lab-Programming-with-Pearson-e-Text-Access-Card-Package-11th-Edition/PGM2297842.html"><img src=https://img.shields.io/badge/Completion-Chapter%204-blue alt="Completion Badge"></a>
     <a href = "https://www.oracle.com/java/"><img src="https://img.shields.io/badge/Programming%20Language-Java-orange" alt="Programming Language Badge"></a>
     <a href = "https://github.com/aalford86"><img src="https://img.shields.io/badge/Contributors-1-purple" alt="Contributors Badge"></a>
     <a href = "https://github.com/aalford86/Introduction_To_Java_Programming_and_Data_Structures/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License Badge"></a>
